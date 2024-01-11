@@ -1,0 +1,157 @@
+/*global*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: arial;
+}
+
+p {
+    line-height: 2;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*header*/
+
+.site-init {
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+
+/*main*/
+.readMore {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.moreInfo {
+    display: inline-block;
+    background-color: #85480c;
+    color: white;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    padding: 10px 10px;
+    font-size: 0.8rem;
+}
+
+.course-container {
+    margin: 1rem 0;
+}
+.main-content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linea-horizontal {
+    border-top: 3px solid #c9c8c8; 
+    margin: 20px 0; 
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1rem;
+}
+
+.mainFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+.fix-center{
+    width: 80%;
+    margin: 2rem auto;
+}
+.main{
+    width: 80%;
+    margin: 2rem auto;
+    text-align: center;
+}
+.image-container{
+    margin-right: 30px;
+}
+.text-container{
+    width: 50%;
+    text-align: justify;
+}
+/*blog*/
+
+.blog-container {
+    margin-top: 20px;
+}
+.blog-container h3 {
+    margin-top: 20px;
+}
+.blog-container p {
+    margin-top: 20px;
+}
+/*footer*/
+
+
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+footer  ul {
+    display: flex;
+    gap: 1rem;
+}
+footer  ul li {
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    align-items: center;
+}
+nav  ul {
+    display: flex;
+    gap: 1rem;
+}
+nav  ul li {
+    list-style: none;
+}
